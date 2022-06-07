@@ -26,15 +26,22 @@ const Support = () => {
 				}>
 				<span className={modal.once ? 'support__item-border' : ''}></span>
 				<span
+					className='app__pointer'
 					onClick={() =>
 						setModal({once: true, ukr: false, usd: false, crypto: false})
 					}>
 					Разова допомога
 				</span>
 			</div>
-			<div className='support__item'>Українські реквізити</div>
-			<div className='support__item'>Долари США (USD/840)</div>
-			<div className='support__item'>Криптовалюта</div>
+			<div className='support__item'>
+				<span className='app__pointer'>Українські реквізити</span>
+			</div>
+			<div className='support__item'>
+				<span className='app__pointer'>Долари США (USD/840)</span>
+			</div>
+			<div className='support__item'>
+				<span className='app__pointer'>Криптовалюта</span>
+			</div>
 		</div>
 	);
 };
