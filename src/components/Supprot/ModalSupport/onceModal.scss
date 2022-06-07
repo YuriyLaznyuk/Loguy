@@ -1,0 +1,77 @@
+.onceModal {
+	//color: #5f39ff;
+	position: absolute;
+	width: 839px;
+	height: 735px;
+	left: 830px;
+	top: 913px;
+	background: #ffffff;
+	box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+	border-radius: 5px;
+	&__close {
+		position: absolute;
+		top: 5px;
+		right: 10px;
+		font-size: 26px;
+		cursor: pointer;
+	}
+	&__title {
+		//font-family: 'Fira Sans';
+		font-style: normal;
+		font-weight: 700;
+		font-size: 25px;
+		line-height: 73px;
+		/* identical to box height, or 292% */
+		text-align: center;
+		color: #191919;
+	}
+	&__input {
+		display: flex;
+		justify-content: center;
+		&-item {
+			margin: 0 29px 0 0;
+			&:nth-last-child(-n + 1) {
+				margin: 0;
+			}
+			&-inp {
+				width: 327px;
+				height: 36px;
+				background: #f2f2f2;
+				border-radius: 3px;
+				padding: 0 12px;
+				//font-family: 'Mulish';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 14px;
+				line-height: 21px;
+				margin: 0 0 30px 0;
+				border: none;
+			}
+			&-text {
+				margin: 0 0 5px 0;
+			}
+		}
+	}
+	&__button {
+		margin: 65px 0 0 0;
+		display: flex;
+		justify-content: center;
+		&-btn {
+			position: absolute;
+			width: 327px;
+			height: 60px;
+			background: #5589a5;
+			border-radius: 5px;
+			border: none;
+			//font-family: 'Fira Sans';
+			font-style: normal;
+			font-weight: 700;
+			font-size: 20px;
+			line-height: 24px;
+			/* identical to box height */
+			text-align: center;
+			color: #ffffff;
+			cursor: pointer;
+		}
+	}
+}
