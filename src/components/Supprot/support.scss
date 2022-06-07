@@ -1,0 +1,21 @@
+.support {
+	background: #f5f5f5;
+	padding: 52px 0 0 251px;
+	&__title {
+		//font-family: 'Fira Sans';
+		font-style: normal;
+		font-weight: 900;
+		font-size: 45px;
+		line-height: 73px;
+		color: #191919;
+	}
+	&__item {
+		margin: 30px 0 0 0;
+		font-style: normal;
+		font-weight: 700;
+		font-size: 25px;
+		line-height: 73px;
+		color: #191919;
+      cursor: pointer;
+	}
+}
