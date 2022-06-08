@@ -3,6 +3,7 @@ import loguy from '../../../public/img/image 3.png';
 import logo from '../../../public/img/logo_1.png';
 import lp from '../../../public/img/_.png';
 import gloru from '../../../public/img/glory.png';
+import './founder.scss';
 
 const Founder = () => {
 	return (
